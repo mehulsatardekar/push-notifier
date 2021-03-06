@@ -20,7 +20,7 @@ webpush.setVapidDetails(
   );
   
   // Subscribe Route
-  app.post(" https://mehulsatardekar.github.io/subscribe", (req, res) => {
+  app.post("/subscribe", (req, res) => {
     // Get pushSubscription object
     const subscription = req.body;
   
