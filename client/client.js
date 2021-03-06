@@ -25,7 +25,7 @@ async function send() {
 
   // Send Push Notification
   console.log("Sending Push...");
-  await fetch("https://mehulsatardekar.github.io/subscribe", {
+  await fetch("https://mehulsatardekar.github.io", {
     method: "POST",
     body: JSON.stringify(subscription),
     headers: {
