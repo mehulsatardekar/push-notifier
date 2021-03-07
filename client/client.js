@@ -25,8 +25,8 @@ async function send() {
 
   // Send Push Notification
   console.log("Sending Push...");
-  await fetch("https://eager-edison-988175.netlify.app/subscribe", {
-    method: "GET",
+  await fetch("/subscribe", {
+    method: "POST",
     body: JSON.stringify(subscription),
     headers: {
       "content-type": "application/json",
