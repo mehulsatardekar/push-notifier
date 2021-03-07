@@ -25,11 +25,11 @@ async function send() {
 
   // Send Push Notification
   console.log("Sending Push...");
-  await fetch("https://mehulsatardekar.github.io", {
+  await fetch("/subscribe", {
     method: "POST",
     body: JSON.stringify(subscription),
     headers: {
-      "content-type": "application/json"
+      "content-type": "application/json",
     }
   });
   console.log("Push Sent...");

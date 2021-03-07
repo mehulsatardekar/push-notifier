@@ -14,7 +14,7 @@ const publicVapidKey =
 const privateVapidKey = "th947aez3EfOlNYZdjulZs46HvEkUsIk0YagioUTSxw";
 
 webpush.setVapidDetails(
-    "mailto:test@test.com",
+    "mailto:mehul@gmail.com",
     publicVapidKey,
     privateVapidKey
   );
