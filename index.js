@@ -20,7 +20,7 @@ webpush.setVapidDetails(
   );
   
   // Subscribe Route
-  app.post("https://eager-edison-988175.netlify.app/subscribe", (req, res) => {
+  app.get("https://eager-edison-988175.netlify.app/subscribe", (req, res) => {
     // Get pushSubscription object
     const subscription = req.body;
   
