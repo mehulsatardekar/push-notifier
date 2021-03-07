@@ -12,3 +12,4 @@ self.addEventListener("push", e => {
     sound:"https://raw.githubusercontent.com/mehulsatardekar/push-notifier/main/notification.mp3"
   });
 });
+
